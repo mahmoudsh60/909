@@ -39,7 +39,7 @@ addEventListener('unhandledrejection', event => {
 addEventListener('error', event => {
     const reason = event.error;
     alert(
-        'Unhandled error\n'
+        'قم بتحديث الصفحه\n'
         + `${reason}\n`
         + `${reason.sourceURL}:${reason.line}:${reason.column}\n`
         + `${reason.stack}`
